@@ -1,0 +1,1756 @@
+{
+  "aifundamentals": {
+    "id": 1,
+    "name": "Artificial Intelligence Fundamentals",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Artificial Intelligence Fundamentals Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/aifundamentals.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Learn core AI concepts and Generative AI while exploring ethical considerations to kickstart your AI career.",
+      "intro": "This Artificial Intelligence Fundamentals course teaches you the skills required to move into various AI roles. You will gain foundational, job-ready knowledge along with practical exposure and an industry-recognized credential.",
+      "youWillLearn": [
+        "Job-ready skills in just 3 weeks with hands-on experience",
+        "Core concepts of Artificial Intelligence",
+        "How AI applications and use cases transform work and life",
+        "The impact of AI on businesses and careers",
+        "Issues, limitations, and ethical concerns surrounding AI"
+      ],
+      "overview": [
+        "Artificial Intelligence is seamlessly integrated into our daily lives and professional environments. This course introduces key AI terminologies, concepts, and applications to help you launch or transition into an AI-driven career.",
+        "You will explore core AI concepts including machine learning, neural networks, and deep learning. The course also introduces Generative AI models such as Large Language Models (LLMs) and their capabilities.",
+        "You will examine AI applications across NLP, computer vision, robotics, and business use cases. Ethical considerations, governance, and responsible AI usage are also covered. Hands-on labs and a final project provide practical experience."
+      ],
+      "modules": [
+        {
+          "title": "Module 0: Welcome",
+          "topics": [
+            "Course Introduction",
+            "General Information",
+            "Learning Objectives and Syllabus",
+            "Helpful Tips for Course Completion",
+            "Grading Scheme"
+          ]
+        },
+        {
+          "title": "Module 1: Introduction and Applications of AI",
+          "topics": [
+            "Artificial Intelligence vs Augmented Intelligence",
+            "Generative AI and its Use Cases",
+            "Types and Evolution of AI",
+            "AI in Daily Life and Smart Assistants",
+            "Chatbots and Conversational AI",
+            "Applications of AI Across Industries",
+            "Generative AI Tools and Hands-on Labs",
+            "Practice Quiz and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 2: AI Concepts, Terminology, and Domains",
+          "topics": [
+            "Cognitive Computing and AI Terminology",
+            "Machine Learning Concepts and Training",
+            "Deep Learning and Neural Networks",
+            "Generative AI Models and Large Language Models",
+            "Natural Language Processing and Computer Vision",
+            "AI in Self-Driving Cars, Cloud, Edge, and IoT",
+            "Practice Quiz and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 3: Business and Career Transformation Through AI",
+          "topics": [
+            "AI Agents, Robotics, and Automation",
+            "Generative AI for Business Transformation",
+            "Retrieval-Augmented Generation (RAG)",
+            "AI Adoption Frameworks",
+            "Using AI Tools to Transform Your Work",
+            "Career Opportunities in AI",
+            "Hands-on Labs and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 4: Issues, Concerns, and Ethical Considerations",
+          "topics": [
+            "Responsible and Ethical Use of AI",
+            "Ethical Concerns in Generative AI",
+            "Why Large Language Models Hallucinate",
+            "AI Governance and Industry Perspectives",
+            "Final Project: Transforming Organizational Functions with AI"
+          ]
+        }
+      ],
+      "prerequisites": "This is a beginner-level course. No prior knowledge of Artificial Intelligence or programming is required."
+    }
+  },
+  "genaiessentials": {
+    "id": 2,
+    "name": "Generative AI Essentials",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Generative AI Essentials Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/images/genaiessentials.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Dive into the new and exciting world of Generative AI and Large Language Models (LLM). Understand the capabilities of generative AI and its use cases in the real world. Identify the applications of generative AI in different sectors and industries. Explore common generative AI models and tools for text, code, image, audio, and video generation. This course is designed for everyone, including professionals, executives, students, and enthusiasts, interested in learning about generative AI and leveraging its capabilities in their work and lives. This course is your first step toward understanding the capabilities of generative AI, powered by different models, including large language models (LLMs).",
+      "intro": "In this course, you will learn about the fundamentals and evolution of generative AI. You will explore the capabilities of generative AI in different domains, including text, image, audio, video, virtual worlds, code, and data. You will understand the applications of generative AI across different sectors and industries. You will learn about the capabilities and features of common generative AI models and tools, such as GPT, DALL-E, Stable Diffusion, and Synthesia. Hands-on labs, included in the course, provide an opportunity to explore the use cases of generative AI through IBM Generative AI Classroom and popular tools like ChatGPT. You will also hear from the practitioners about the capabilities, applications, and tools of generative AI.",
+      "youWillLearn": [
+        "Practical Generative AI skills to become job-ready in a short time",
+        "Foundational concepts of Generative AI and how models generate text, images, and code",
+        "Real-world Generative AI use cases across industries and daily work",
+        "How Generative AI is reshaping careers, productivity, and business models",
+        "Responsible use, limitations, and ethical challenges of Generative AI"
+      ],
+      "overview": [
+        "Artificial Intelligence is seamlessly integrated into our daily lives and professional environments. This course introduces key AI terminologies, concepts, and applications to help you launch or transition into an AI-driven career.",
+        "You will explore core AI concepts including machine learning, neural networks, and deep learning. The course also introduces Generative AI models such as Large Language Models (LLMs) and their capabilities.",
+        "You will examine AI applications across NLP, computer vision, robotics, and business use cases. Ethical considerations, governance, and responsible AI usage are also covered. Hands-on labs and a final project provide practical experience."
+      ],
+      "modules": [
+        {
+          "title": "Module 0: Welcome",
+          "topics": [
+            "Course Introduction",
+            "General Information",
+            "Learning Objectives and Syllabus",
+            "Helpful Tips for Course Completion",
+            "Grading Scheme"
+          ]
+        },
+        {
+          "title": "Module 1: Introduction and Applications of AI",
+          "topics": [
+            "Artificial Intelligence vs Augmented Intelligence",
+            "Generative AI and its Use Cases",
+            "Types and Evolution of AI",
+            "AI in Daily Life and Smart Assistants",
+            "Chatbots and Conversational AI",
+            "Applications of AI Across Industries",
+            "Generative AI Tools and Hands-on Labs",
+            "Practice Quiz and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 2: AI Concepts, Terminology, and Domains",
+          "topics": [
+            "Cognitive Computing and AI Terminology",
+            "Machine Learning Concepts and Training",
+            "Deep Learning and Neural Networks",
+            "Generative AI Models and Large Language Models",
+            "Natural Language Processing and Computer Vision",
+            "AI in Self-Driving Cars, Cloud, Edge, and IoT",
+            "Practice Quiz and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 3: Business and Career Transformation Through AI",
+          "topics": [
+            "AI Agents, Robotics, and Automation",
+            "Generative AI for Business Transformation",
+            "Retrieval-Augmented Generation (RAG)",
+            "AI Adoption Frameworks",
+            "Using AI Tools to Transform Your Work",
+            "Career Opportunities in AI",
+            "Hands-on Labs and Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 4: Issues, Concerns, and Ethical Considerations",
+          "topics": [
+            "Responsible and Ethical Use of AI",
+            "Ethical Concerns in Generative AI",
+            "Why Large Language Models Hallucinate",
+            "AI Governance and Industry Perspectives",
+            "Final Project: Transforming Organizational Functions with AI"
+          ]
+        }
+      ],
+      "prerequisites": "This is a beginner-level course. No prior knowledge of Artificial Intelligence or programming is required."
+    }
+  },
+  "machinelearningusingpython": {
+    "id": 3,
+    "name": "Machine Learning using Python",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Machine Learning using Python Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/images/machinelearningpython.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Machine Learning is the foundation of Data Science and Artificial Intelligence (AI), and Python is the language of choice. Get started with machine learning and Python by enrolling in this hands-on course designed to build strong foundational ML skills.",
+      "intro": "This Machine Learning with Python course introduces the fundamentals of machine learning using an approachable and widely used programming language. You will learn the differences between supervised and unsupervised learning, explore how statistical modeling relates to machine learning, and analyze real-world examples of machine learning and its impact on society.",
+      "youWillLearn": [
+        "Understand supervised and unsupervised machine learning concepts",
+        "Apply popular machine learning algorithms using Python",
+        "Build and evaluate classification and regression models",
+        "Work with clustering and dimensionality reduction techniques",
+        "Apply machine learning concepts through hands-on labs using Jupyter"
+      ],
+      "overview": [
+        "Machine learning plays a critical role in data science and artificial intelligence applications across industries. This course provides a practical introduction to machine learning concepts using Python.",
+        "You will explore commonly used algorithms including classification, regression, clustering, and dimensionality reduction, along with model evaluation techniques.",
+        "Through hands-on labs in a Jupyter environment, you will implement machine learning models, evaluate their performance, and understand real-world machine learning workflows."
+      ],
+      "modules": [
+        {
+          "title": "Module 1: Supervised vs Unsupervised Learning",
+          "topics": [
+            "Machine Learning vs Statistical Modelling",
+            "Supervised vs Unsupervised Learning",
+            "Supervised Learning Classification",
+            "Unsupervised Learning"
+          ]
+        },
+        {
+          "title": "Module 2: Supervised Learning I",
+          "topics": [
+            "K-Nearest Neighbors",
+            "Decision Trees",
+            "Random Forests",
+            "Reliability of Random Forests",
+            "Advantages and Disadvantages of Decision Trees"
+          ]
+        },
+        {
+          "title": "Module 3: Supervised Learning II",
+          "topics": [
+            "Regression Algorithms",
+            "Model Evaluation",
+            "Overfitting and Underfitting",
+            "Understanding Different Evaluation Models"
+          ]
+        },
+        {
+          "title": "Module 4: Unsupervised Learning",
+          "topics": [
+            "K-Means Clustering: Advantages and Disadvantages",
+            "Hierarchical Clustering: Advantages and Disadvantages",
+            "Measuring Distances Between Clusters – Single Linkage",
+            "Algorithms for Hierarchical Clustering",
+            "Density-Based Clustering"
+          ]
+        },
+        {
+          "title": "Module 5: Dimensionality Reduction and Collaborative Filtering",
+          "topics": [
+            "Dimensionality Reduction: Feature Extraction and Selection",
+            "Collaborative Filtering and Its Challenges"
+          ]
+        }
+      ],
+      "prerequisites": "Python for data science is required. This course involves hands-on labs using Jupyter Notebook, a popular tool among data scientists. Learners should have working knowledge of Python for data analysis. If you are not comfortable with Python or Jupyter, it is recommended to complete introductory courses such as Data Analysis with Python or Data Science Hands-on with Open Source Tools before enrolling."
+    }
+  },
+  "dataanalysiswithpython": {
+    "id": 4,
+    "name": "Data Analysis with Python",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Data Analysis with Python Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/images/dataanalysispython.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Learn modern techniques of data analysis using Python and popular open-source libraries such as pandas, NumPy, and scikit-learn to transform raw data into meaningful insights.",
+      "intro": "Data analysis is a highly in-demand and well-paid skill across industries. This course teaches you how to analyze data using Python, moving from Python fundamentals to working with diverse datasets. You will learn to prepare data for analysis, perform statistical analysis, create visualizations, build predictive models, and design data pipelines using open-source tools.",
+      "youWillLearn": [
+        "Import datasets from multiple sources using Python",
+        "Clean and prepare data for analysis",
+        "Manipulate and analyze pandas DataFrames",
+        "Summarize and explore data using statistical techniques",
+        "Build machine learning models using scikit-learn",
+        "Create data pipelines for end-to-end analysis"
+      ],
+      "overview": [
+        "Python and open-source libraries have transformed the field of data analysis by replacing expensive and closed tools with flexible, powerful alternatives.",
+        "In this course, you will work with Pandas, NumPy, SciPy, and scikit-learn to load, clean, manipulate, analyze, and visualize real-world datasets.",
+        "Through lectures, hands-on labs, and assignments, you will gain practical experience in data analysis and predictive modeling using industry-standard tools."
+      ],
+      "modules": [
+        {
+          "title": "Module 1: Importing Datasets",
+          "topics": [
+            "Learning Objectives",
+            "Understanding the Domain",
+            "Understanding the Dataset",
+            "Python Packages for Data Science",
+            "Importing and Exporting Data in Python",
+            "Basic Insights from Datasets"
+          ]
+        },
+        {
+          "title": "Module 2: Cleaning and Preparing the Data",
+          "topics": [
+            "Identify and Handle Missing Values",
+            "Data Formatting",
+            "Data Normalization",
+            "Binning",
+            "Indicator Variables"
+          ]
+        },
+        {
+          "title": "Module 3: Summarizing the Data Frame",
+          "topics": [
+            "Descriptive Statistics",
+            "Basics of Grouping",
+            "ANOVA",
+            "Correlation",
+            "More on Correlation"
+          ]
+        },
+        {
+          "title": "Module 4: Model Development",
+          "topics": [
+            "Simple and Multiple Linear Regression",
+            "Model Evaluation Using Visualization",
+            "Polynomial Regression and Pipelines",
+            "R-squared and Mean Squared Error (MSE)",
+            "Prediction and Decision Making"
+          ]
+        },
+        {
+          "title": "Module 5: Model Evaluation",
+          "topics": [
+            "Model Evaluation",
+            "Overfitting, Underfitting, and Model Selection",
+            "Ridge Regression",
+            "Grid Search",
+            "Model Refinement"
+          ]
+        }
+      ],
+      "prerequisites": "Some prior Python experience is expected, along with basic knowledge of statistics. Completing a Python for Data Science course is recommended before enrolling. This course is self-paced and can be audited multiple times."
+    }
+  },
+  "sqlandrelationaldatabase101": {
+    "id": 5,
+    "name": "SQL and Relational Database 101",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM SQL and Relational Database 101 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/images/sqlrelationaldatabase.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Are you ready to dive into the world of SQL and relational databases? In just a few hours, you will be able to discuss SQL basics and explain key aspects of the relational database model. Through hands-on exercises, this course guides you through your first steps into SQL and relational databases.",
+      "intro": "Data is one of the most critical assets of any business, and databases are essential for storing and processing data efficiently. SQL is the standard language used to interact with relational databases. In this introductory course, you will learn the fundamentals of SQL and relational databases, starting with relational model concepts and constraints. By the end of the course, you will have practiced the five basic SQL statements, explored advanced SQL syntax, and worked with join operations through hands-on exercises, assignments, and a final exam.",
+      "youWillLearn": [
+        "Understand the fundamentals of SQL and relational databases",
+        "Explain relational data models, entities, and relationships",
+        "Create and manage database tables using SQL",
+        "Query, insert, update, and delete data using SQL statements",
+        "Work with advanced SQL concepts including joins and grouping"
+      ],
+      "overview": [
+        "Relational databases form the backbone of modern data-driven applications. This course provides a practical introduction to relational database concepts and SQL.",
+        "You will learn how data is modeled, stored, and retrieved using relational tables and how SQL is used to manipulate and query data.",
+        "The course includes lectures, hands-on exercises, assignments, review questions, and a final exam to reinforce learning and prepare you for real-world database usage."
+      ],
+      "modules": [
+        {
+          "title": "Module 1: SQL and Relational Databases 101",
+          "topics": [
+            "Introduction to SQL and Relational Databases",
+            "Information and Data Models",
+            "Types of Relationships",
+            "Mapping Entities to Tables",
+            "Relational Model Concepts"
+          ]
+        },
+        {
+          "title": "Module 2: Relational Model Constraints and Data Objects",
+          "topics": [
+            "Relational Model Constraints: Introduction",
+            "Relational Model Constraints: Advanced"
+          ]
+        },
+        {
+          "title": "Module 3: Data Definition Language (DDL) and Data Manipulation Language (DML)",
+          "topics": [
+            "CREATE TABLE statement",
+            "INSERT statement",
+            "SELECT statement",
+            "UPDATE and DELETE statements"
+          ]
+        },
+        {
+          "title": "Module 4: Advanced SQL",
+          "topics": [
+            "String Patterns, Ranges, and Sets",
+            "Sorting Result Sets",
+            "Grouping Result Sets"
+          ]
+        },
+        {
+          "title": "Module 5: Working with Multiple Tables",
+          "topics": ["Join Overview", "Inner Join", "Outer Join"]
+        }
+      ],
+      "prerequisites": "No prior experience is required. This beginner-level course is suitable for students, professionals, and anyone interested in learning SQL and relational database fundamentals."
+    }
+  },
+  "cybersecurityfundamentals": {
+    "id": 6,
+    "name": "Cybersecurity Fundamentals",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Cybersecurity Fundamentals Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/images/cybersecurityfundamentals.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "This beginner-level course is ideal for anyone looking to jumpstart a career in IT or a cybersecurity-related role, or for those who want to understand cybersecurity concepts to communicate effectively with IT security teams. The course introduces essential cybersecurity concepts, threats, and best practices needed to protect systems and data.",
+      "intro": "Cybersecurity presents ongoing challenges for organizations that rely on IT infrastructures and data. This course helps you build foundational cybersecurity skills to address common security threats and understand best practices for safeguarding systems, networks, and information. It serves as a first step toward roles such as cyber analyst or entry-level security engineer and is also valuable for professionals who work closely with IT security personnel.",
+      "youWillLearn": [
+        "Recognize data security, integrity, and confidentiality protection needs",
+        "Identify common cybersecurity threats, attacks, and vulnerabilities",
+        "Understand core cybersecurity tools such as firewalls, antivirus software, and encryption",
+        "Apply best practices for authentication, authorization, and secure device usage",
+        "Develop safe browsing and electronic communication security habits"
+      ],
+      "overview": [
+        "Cybersecurity is critical for protecting organizational data and IT systems from evolving threats. This course provides an introduction to cybersecurity concepts, tools, and best practices.",
+        "You will explore different types of cybersecurity risks related to malware, phishing, social engineering, browsing, authentication, and privacy.",
+        "Through lectures, activities, case studies, and hands-on labs, you will gain practical exposure to real-world cybersecurity scenarios and defensive techniques."
+      ],
+      "modules": [
+        {
+          "title": "Module 1: Security Concerns",
+          "topics": [
+            "Course Introduction",
+            "Confidentiality, Integrity, and Availability",
+            "Security and Information Privacy",
+            "Activity: Exploring Information Privacy",
+            "Threats and Breaches",
+            "Hands-on Lab: Windows Update",
+            "Threat Types",
+            "Phishing, Social Engineering, and Other Attacks",
+            "Activity: Identifying an Attack",
+            "Case Study",
+            "Activity: Identifying Malware Threats",
+            "Hands-on Lab: Windows Defender Antivirus"
+          ]
+        },
+        {
+          "title": "Module 2: Security Best Practices",
+          "topics": [
+            "Password Management Techniques",
+            "Authentication and Single Sign-On (SSO)",
+            "Hands-on Lab: Enforce Strong Password Policies",
+            "Security Threats: Access Control, Authorization, and Authentication",
+            "Hardening Devices",
+            "Firewalls",
+            "Hands-on Lab: Windows Defender Firewall",
+            "Security Threats: Validation and Device Usage",
+            "Security Threats: Encryption Concepts",
+            "Managing Email and Spam",
+            "Activity: Identifying Phishing Attempts"
+          ]
+        },
+        {
+          "title": "Module 3: Security Concerns and Safe Browsing",
+          "topics": [
+            "Application Ecosystem Security",
+            "Public Browsing Risks",
+            "Plugins, Extensions, and Toolbars",
+            "Safe Browsing Techniques",
+            "Hands-on Lab: Managing Browser Security and Privacy Settings",
+            "Virtual Private Networks (VPNs)"
+          ]
+        }
+      ],
+      "prerequisites": "Basic computer operating skills are recommended, including familiarity with using a web browser. No prior cybersecurity experience is required."
+    }
+  },
+  "businessanalysisfundamentals": {
+    "id": 7,
+    "name": "Business Analysis Fundamentals",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Business Analysis Fundamentals Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/businessanalysis.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Kickstart your business analysis journey by building the fundamental skills companies need to drive digital transformation, inform strategic decisions, and deliver measurable business value.",
+
+      "intro": "Get ready to begin your journey into the highly rewarding field of business analysis. In this course, you will build the foundational skills and knowledge required to succeed as a business analyst and understand how organizations leverage business analysis to achieve digital transformation and data-driven growth.",
+
+      "youWillLearn": [
+        "Fundamental business analysis skills aligned with the BABOK Guide",
+        "Hands-on practical knowledge to prepare for ECBA certification",
+        "Process modeling, requirements gathering, and stakeholder engagement strategies",
+        "Core concepts of systems analysis, data analysis, and data visualization",
+        "Digital transformation strategies and the role of AI in business analysis"
+      ],
+
+      "overview": [
+        "Business analysis is ranked among the top 10 in-demand skills globally, as organizations increasingly rely on professionals who can bridge business needs with technological solutions.",
+        "This course introduces the core principles of business analysis, including roles, responsibilities, essential competencies, certifications, and career pathways in the domain.",
+        "Through real-world industry examples, hands-on labs, and practical exercises, you will explore gap analysis, digital strategy, technology evaluation, and AI-driven enhancements in business analysis practices."
+      ],
+
+      "modules": [
+        {
+          "title": "Module 1: Basics of Business Analysis",
+          "topics": [
+            "Introduction to Business Analysis",
+            "Role of Business Analysis in Enterprises",
+            "Evolution and Importance of Business Analysis",
+            "Domains in Business Analysis",
+            "Aligning Business and Solution Domains",
+            "Responsibilities of a Business Analyst",
+            "Skills Required for a Business Analyst",
+            "Overview of BABOK (Optional Reading)",
+            "Career Prospects and Career Paths",
+            "How to Become a Business Analyst",
+            "Unlock Your Potential Activity",
+            "Practice Quiz",
+            "Module Summary",
+            "Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 2: Business Analysis Process",
+          "topics": [
+            "Steps in the Business Analysis Process",
+            "Requirement Gathering Techniques",
+            "Popular Tools in Business Analysis",
+            "Features of Common Business Analysis Tools",
+            "Business Analysis Techniques Overview",
+            "Using Tools for Documenting Requirements (Lab)",
+            "Practice Quiz",
+            "Module Summary",
+            "Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 3: Business Analysis Practical Applications",
+          "topics": [
+            "Business Analysis Across Industries",
+            "Performing Effective Gap Analysis",
+            "Visualizing and Improving Business Processes (Lab)",
+            "Creating a Business Analysis Matrix (Lab)",
+            "Digital Strategy and Transformation",
+            "Technology Assessment for Digital Transformation",
+            "Evaluating Digital Transformation Scenarios (Lab)",
+            "AI in Business Analysis",
+            "Practice Quiz",
+            "Module Summary",
+            "Graded Quiz"
+          ]
+        },
+        {
+          "title": "Module 4: Final Project and Exam",
+          "topics": [
+            "Project: Streamlining Hospital Operations through Business Analysis",
+            "Final Quiz: Business Analysis Fundamentals"
+          ]
+        }
+      ],
+
+      "prerequisites": "This course is designed for aspiring business analysts beginning their journey in the field. It is also suitable for working professionals seeking to strengthen and expand their business analysis skills. No prior business analysis experience is required."
+    }
+  },
+  "datascience101": {
+    "id": 8,
+    "name": "Data Science 101",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Data Science 101 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/datascience101.svg",
+    "price": "2,100",
+    "syllabus": {
+      "atAGlance": "Explore the origins, evolution, and modern applications of data science. Discover how data science practitioners uncover insights, identify trends, and drive decision-making across industries.",
+
+      "intro": "This course introduces you to the world of data science by uncovering what the field truly involves. Through real stories from practitioners and practical discussions, you will gain a clear understanding of the roles, tools, and impact of data science in today’s data-driven economy. Formerly known as Data Science 101, this course serves as an ideal starting point for aspiring data professionals.",
+
+      "youWillLearn": [
+        "What data science is and how the field has evolved",
+        "Different career paths that lead to data science",
+        "Daily responsibilities of data science professionals",
+        "Core tools and technologies such as Python, R, and cloud platforms",
+        "How data science is applied in business decision-making",
+        "Common terminology and mindset of data science professionals"
+      ],
+
+      "overview": [
+        "Data science has historical roots dating back to ancient civilizations, where data was used for planning and prediction. Today, it has evolved into a powerful interdisciplinary field combining statistics, programming, and domain expertise.",
+        "This course provides insight into the real-world responsibilities of data scientists, including regression analysis, business reporting, and analytical problem-solving.",
+        "You will explore business use cases, recruitment strategies, and practical applications of data science, while understanding how companies leverage analytics to create value."
+      ],
+
+      "modules": [
+        {
+          "title": "Module 1: Defining Data Science",
+          "topics": [
+            "What is Data Science?",
+            "Different Paths to Data Science",
+            "Advice for New Data Scientists",
+            "Introduction to Cloud Computing",
+            "\"Data Science: The Sexiest Job in the 21st Century\""
+          ]
+        },
+        {
+          "title": "Module 2: What Do Data Science Professionals Do?",
+          "topics": [
+            "A Day in the Life of a Data Scientist",
+            "R vs Python",
+            "Data Science Tools and Technologies",
+            "Introduction to Regression"
+          ]
+        },
+        {
+          "title": "Module 3: Data Science in Business",
+          "topics": [
+            "Getting Started with Data Science in Organizations",
+            "Recruiting Data Science Talent",
+            "Understanding the Final Deliverable"
+          ]
+        },
+        {
+          "title": "Module 4: Use Cases for Data Science",
+          "topics": [
+            "Applications of Data Science",
+            "Understanding Report Structure"
+          ]
+        },
+        {
+          "title": "Module 5: Data Science Professionals",
+          "topics": [
+            "Common Terminology Used by Data Scientists",
+            "What Makes Someone a Data Scientist?"
+          ]
+        }
+      ],
+
+      "prerequisites": "No prior experience in data science or programming is required. This beginner-friendly course is self-paced and can be taken at any time."
+    }
+  },
+  "datavisualizationwithpython": {
+    "id": 9,
+    "name": "Data Visualization with Python",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Data Visualization with Python Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/datavisualization.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Learn how to transform raw data into compelling visual stories using powerful Python libraries. Master the art of creating charts, graphs, and geospatial maps to effectively communicate insights and trends.",
+
+  "intro": "Data visualization is the graphical representation of data to efficiently communicate insights to stakeholders, clients, and decision-makers. This course teaches you how to convert complex datasets into meaningful visual stories. By leveraging Python visualization libraries such as Matplotlib, Seaborn, and Folium, you will learn to design engaging, insightful, and aesthetically appealing graphics that drive better understanding and smarter decisions.",
+
+  "youWillLearn": [
+    "Core principles and importance of data visualization",
+    "How to create and customize plots using Matplotlib",
+    "Techniques for building histograms, bar charts, area plots, and scatter plots",
+    "Advanced visualizations including waffle charts and word clouds",
+    "Using Seaborn for statistical and regression plots",
+    "Creating interactive geospatial maps using Folium"
+  ],
+
+  "overview": [
+    "Data visualization plays a critical role in interpreting both small and large datasets. It helps uncover patterns, trends, and insights that may not be immediately visible in raw data.",
+    "In this course, you will learn how to leverage Python visualization libraries including Matplotlib, Seaborn, and Folium to create impactful data visualizations.",
+    "By the end of the course, you will be able to transform complex datasets into clear, visually appealing representations that enhance storytelling and support data-driven decision-making."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to Visualization Tools",
+      "topics": [
+        "Introduction to Data Visualization",
+        "Introduction to Matplotlib",
+        "Basic Plotting with Matplotlib",
+        "Dataset on Immigration to Canada",
+        "Line Plots"
+      ]
+    },
+    {
+      "title": "Module 2: Basic Visualization Tools",
+      "topics": [
+        "Area Plots",
+        "Histograms",
+        "Bar Charts"
+      ]
+    },
+    {
+      "title": "Module 3: Specialized Visualization Tools",
+      "topics": [
+        "Pie Charts",
+        "Box Plots",
+        "Scatter Plots",
+        "Bubble Plots"
+      ]
+    },
+    {
+      "title": "Module 4: Advanced Visualization Tools",
+      "topics": [
+        "Waffle Charts",
+        "Word Clouds",
+        "Seaborn and Regression Plots"
+      ]
+    },
+    {
+      "title": "Module 5: Creating Maps and Visualizing Geospatial Data",
+      "topics": [
+        "Introduction to Folium",
+        "Maps with Markers",
+        "Choropleth Maps"
+      ]
+    }
+  ],
+
+  "prerequisites": "Prior completion of Python 101 and Data Analysis with Python is recommended. Basic familiarity with Python programming and data manipulation concepts will help you gain the most from this course."
+}
+  },
+  "deeplearningwithtensorflow": {
+    "id": 10,
+    "name": "Deep Learning with TensorFlow",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Deep Learning with TensorFlow Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/deeplearning.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Learn how deep neural networks uncover hidden patterns in unlabeled and unstructured data such as images, audio, and text. Apply deep learning techniques using TensorFlow to solve real-world problems.",
+
+  "intro": "This course introduces deep learning concepts and demonstrates how TensorFlow can be used to build, train, and optimize neural networks. Unlike traditional shallow neural networks, deep learning models contain multiple hidden layers capable of discovering complex structures in large-scale unstructured data. You will explore TensorFlow fundamentals, mathematical operations using tensors, and the execution pipeline before advancing to deep architectures such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Autoencoders.",
+
+  "youWillLearn": [
+    "Core concepts of deep learning and neural networks",
+    "Fundamentals of TensorFlow including tensors, operations, and computational graphs",
+    "Implementation of regression and classification models",
+    "Backpropagation and optimization techniques",
+    "Convolutional Neural Networks (CNNs) for image-related tasks",
+    "Recurrent Neural Networks (RNNs) and LSTM for sequential data",
+    "Unsupervised learning methods including RBMs and Autoencoders"
+  ],
+
+  "overview": [
+    "Deep learning models extend traditional neural networks by incorporating multiple hidden layers, allowing them to extract meaningful patterns from unstructured data such as images, sound, and text.",
+    "TensorFlow, developed by Google, is a powerful open-source library designed for numerical computation and machine learning using data flow graphs and tensors.",
+    "Through practical examples including regression, classification, curve fitting, and optimization problems, you will learn how to build, train, and evaluate deep learning models using TensorFlow.",
+    "The course concludes with advanced deep learning architectures including CNNs, RNNs, Restricted Boltzmann Machines, and Autoencoders."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to TensorFlow",
+      "topics": [
+        "Hello World with TensorFlow",
+        "Linear Regression",
+        "Nonlinear Regression",
+        "Logistic Regression",
+        "Activation Functions"
+      ]
+    },
+    {
+      "title": "Module 2: Convolutional Neural Networks (CNN)",
+      "topics": [
+        "History of CNNs",
+        "Understanding CNN Architecture",
+        "Applications of CNNs"
+      ]
+    },
+    {
+      "title": "Module 3: Recurrent Neural Networks (RNN)",
+      "topics": [
+        "Introduction to RNN Models",
+        "Long Short-Term Memory (LSTM)",
+        "Recursive Neural Tensor Network Theory",
+        "Recurrent Neural Network Model Implementation"
+      ]
+    },
+    {
+      "title": "Module 4: Unsupervised Learning",
+      "topics": [
+        "Applications of Unsupervised Learning",
+        "Restricted Boltzmann Machines (RBM)",
+        "Collaborative Filtering with RBM"
+      ]
+    },
+    {
+      "title": "Module 5: Autoencoders",
+      "topics": [
+        "Introduction to Autoencoders and Applications",
+        "Autoencoder Architecture",
+        "Deep Belief Networks"
+      ]
+    }
+  ],
+
+  "prerequisites": "Prior knowledge of basic Neural Networks and Python programming is recommended. Familiarity with linear algebra and fundamental machine learning concepts will be beneficial."
+}
+  },
+  "devopsfundamentals": {
+    "id": 11,
+    "name": "IBM DevOps Fundamentals",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM DevOps Fundamentals Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/devopsfundamentals.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Understand the principles of DevOps and learn how development and operations teams collaborate to accelerate software delivery through automation, continuous integration, and cloud-based deployment strategies.",
+
+  "intro": "DevOps (Development and Operations) is a modern software development methodology that integrates development and IT operations to shorten the system development life cycle while delivering high-quality features, updates, and fixes in alignment with business goals. This course introduces the core DevOps concepts, automation practices, monitoring strategies, and cloud-based implementations that enable organizations to build, test, and deploy software efficiently.",
+
+  "youWillLearn": [
+    "Core principles and fundamentals of DevOps",
+    "How DevOps aligns development and operations teams",
+    "Automation in software build, testing, and deployment",
+    "Continuous Integration and Continuous Deployment (CI/CD) concepts",
+    "Real-world DevOps use cases and business impact",
+    "Introduction to implementing DevOps on IBM Cloud"
+  ],
+
+  "overview": [
+    "DevOps bridges the gap between software development and IT operations by fostering collaboration, automation, and continuous delivery practices.",
+    "This course explores how organizations use DevOps to improve deployment frequency, reduce failure rates, and accelerate innovation.",
+    "You will learn about DevOps lifecycle stages, event monitoring, infrastructure automation, and cloud-based DevOps environments including IBM Cloud."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: DevOps Fundamentals",
+      "topics": [
+        "Introduction to DevOps",
+        "DevOps Principles and Culture",
+        "DevOps Lifecycle",
+        "Automation in DevOps",
+        "Continuous Integration and Continuous Deployment (CI/CD)"
+      ]
+    },
+    {
+      "title": "Module 2: DevOps Use Case",
+      "topics": [
+        "Real-World DevOps Implementation Examples",
+        "Business Benefits of DevOps",
+        "Improving Collaboration Between Dev and Ops",
+        "Monitoring and Feedback Loops"
+      ]
+    },
+    {
+      "title": "Module 3: Advanced DevOps",
+      "topics": [
+        "Infrastructure as Code (IaC)",
+        "Containerization and Orchestration Concepts",
+        "Advanced Automation Strategies",
+        "Scaling DevOps Practices"
+      ]
+    },
+    {
+      "title": "Module 4: Introduction to DevOps on IBM Cloud",
+      "topics": [
+        "Overview of IBM Cloud Services",
+        "DevOps Toolchains on IBM Cloud",
+        "Deploying Applications in Cloud Environments",
+        "Monitoring and Managing Cloud-Based Applications"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic understanding of software development concepts and IT operations is recommended. Familiarity with programming or system administration fundamentals will be helpful but is not mandatory."
+}
+  },
+  "cloudcomputing": {
+    "id": 12,
+    "name": "Introduction to Cloud Computing",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Introduction to Cloud Computing Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/cloudcomputing.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Build a strong foundation in cloud computing by understanding core concepts, service and deployment models, cloud architecture components, storage types, and emerging cloud trends shaping modern businesses.",
+
+  "intro": "This course introduces the fundamental concepts of cloud computing from both business and technical perspectives. You will explore the history and evolution of cloud computing, understand service and deployment models, examine cloud architecture components, and analyze emerging cloud technologies. By the end of this course, you will have the foundational knowledge required to confidently understand and discuss cloud computing in professional environments.",
+
+  "youWillLearn": [
+    "Definition, characteristics, and evolution of cloud computing",
+    "Cloud service models: IaaS, PaaS, and SaaS",
+    "Cloud deployment models: Public, Private, and Hybrid",
+    "Core components of cloud architecture including virtualization, VMs, storage, networking, and containers",
+    "Different types of cloud storage solutions",
+    "Emerging trends such as Hybrid Multicloud, Serverless, Microservices, and Cloud Native applications"
+  ],
+
+  "overview": [
+    "Cloud computing has transformed how organizations build, deploy, and scale applications. This course provides a structured introduction to its essential concepts and architecture.",
+    "You will explore the business case for cloud adoption, review major cloud service providers, and understand how emerging technologies such as AI, IoT, Blockchain, and Analytics leverage cloud platforms.",
+    "The course also examines modern cloud-native practices including serverless computing, microservices architecture, and application modernization strategies."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Overview of Cloud Computing",
+      "topics": [
+        "Definition and Essential Characteristics of Cloud Computing",
+        "History and Evolution of Cloud Computing",
+        "Key Cloud Service Providers and Their Services"
+      ]
+    },
+    {
+      "title": "Module 2: Cloud Adoption and Emerging Technologies",
+      "topics": [
+        "Business Case for Cloud Computing",
+        "Emerging Technologies Supported by Cloud (AI, IoT, Blockchain, Analytics)"
+      ]
+    },
+    {
+      "title": "Module 3: Cloud Computing Service and Deployment Models",
+      "topics": [
+        "Service Models: IaaS, PaaS, SaaS",
+        "Deployment Models: Public Cloud, Private Cloud, Hybrid Cloud"
+      ]
+    },
+    {
+      "title": "Module 4: Components of Cloud Computing",
+      "topics": [
+        "Cloud Infrastructure Overview",
+        "Virtualization, Virtual Machines, and Bare Metal",
+        "Secure Cloud Networks",
+        "Containers"
+      ]
+    },
+    {
+      "title": "Module 5: Cloud Storage",
+      "topics": [
+        "Direct Attached Storage",
+        "File Storage",
+        "Block Storage",
+        "Object Storage",
+        "Content Delivery Networks (CDN)"
+      ]
+    },
+    {
+      "title": "Module 6: Cloud Native and Emergent Cloud Trends",
+      "topics": [
+        "Hybrid Multicloud",
+        "Serverless Computing",
+        "Microservices Architecture",
+        "Cloud Native Applications",
+        "Application Modernization"
+      ]
+    }
+  ],
+
+  "prerequisites": "No prior knowledge of cloud computing is required. This beginner-level course is designed for learners from both technical and non-technical backgrounds. Basic familiarity with IT concepts is helpful but not mandatory."
+}
+  },
+  "quantumcomputing": {
+    "id": 13,
+    "name": "Introduction to Quantum Computing",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Introduction to Quantum Computing Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/quantumcomputing.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Build a strong foundation in quantum computing by exploring qubits, superposition, entanglement, and quantum logic gates. Gain practical exposure to fundamental quantum concepts and algorithms in this beginner-friendly introduction.",
+
+  "intro": "This course introduces you to the fascinating world of quantum computing. You will explore core quantum principles such as superposition, entanglement, and uncertainty, and understand how quantum systems differ from classical computing models. Through interactive labs and conceptual demonstrations, you will gain hands-on insight into the mechanics of quantum behavior before testing your understanding in a final assessment.",
+
+  "youWillLearn": [
+    "Fundamental principles of quantum computing",
+    "Understanding qubits and superposition",
+    "Concept of quantum entanglement",
+    "Quantum uncertainty and measurement",
+    "Basic quantum logic gates and introductory algorithms",
+    "Practical exposure through guided quantum labs"
+  ],
+
+  "overview": [
+    "Quantum computing leverages the principles of quantum mechanics to process information in fundamentally new ways compared to classical computers.",
+    "This beginner-level course introduces foundational quantum concepts through simplified explanations and interactive lab experiences.",
+    "Learners will explore how qubits behave, how superposition and entanglement enable powerful computational possibilities, and how quantum systems are measured and analyzed."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: The Hall of Wonders",
+      "topics": [
+        "Introduction to Quantum Concepts",
+        "Understanding Qubits",
+        "Foundations of Quantum Mechanics in Computing"
+      ]
+    },
+    {
+      "title": "Module 2: The Superposition Lab",
+      "topics": [
+        "Understanding Superposition",
+        "Quantum States and Probability",
+        "Practical Superposition Demonstration"
+      ]
+    },
+    {
+      "title": "Module 3: The Entanglement Lab",
+      "topics": [
+        "Understanding Quantum Entanglement",
+        "Correlated Quantum States",
+        "Practical Entanglement Demonstration"
+      ]
+    },
+    {
+      "title": "Module 4: The Uncertainty Lab",
+      "topics": [
+        "Quantum Measurement Principles",
+        "Uncertainty in Quantum Systems",
+        "Practical Measurement Demonstration"
+      ]
+    },
+    {
+      "title": "Module 5: Return to the Hall of Wonders",
+      "topics": [
+        "Consolidation of Quantum Concepts",
+        "Review of Key Principles"
+      ]
+    },
+    {
+      "title": "Module 6: Final Assessment",
+      "topics": [
+        "Show What You Know – Final Quiz"
+      ]
+    }
+  ],
+
+  "prerequisites": "This is a beginner-level course. No prior knowledge of quantum computing, physics, or programming is required.",
+
+  "gradingScheme": "The minimum passing mark for the course is 80%. The final exam accounts for 100% of the overall course grade."
+}
+  },
+  "scala101": {
+    "id": 14,
+    "name": "Scala 101",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Scala 101 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/scala.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Learn Scala, a powerful programming language that combines object-oriented and functional programming paradigms. Gain the foundational skills required to use Scala for data science and big data applications, including Apache Spark.",
+
+  "intro": "Scala is a modern programming language that runs on the Java Virtual Machine (JVM) and is fully compatible with Java. It uniquely blends object-oriented programming (OOP) and functional programming (FP), making it highly expressive and scalable. Widely adopted in the big data ecosystem, especially with Apache Spark, Scala has become a valuable skill for data developers and data scientists. This course provides a comprehensive introduction to Scala fundamentals, tooling, development workflows, and advanced language features to prepare you for real-world data science applications.",
+
+  "youWillLearn": [
+    "Core syntax and fundamentals of the Scala programming language",
+    "Object-Oriented Programming (OOP) concepts in Scala",
+    "Functional Programming (FP) principles in Scala",
+    "Scala development tools and build processes",
+    "Using Scala in Big Data environments such as Apache Spark",
+    "Advanced Scala language features and best practices"
+  ],
+
+  "overview": [
+    "Scala combines the robustness of Java with modern functional programming capabilities, making it ideal for scalable and high-performance applications.",
+    "This course is designed for data developers and data scientists who want to confidently start programming in Scala for data science tasks.",
+    "You will gain a strong understanding of Scala fundamentals, development tooling, and advanced language constructs while preparing to apply Scala in big data ecosystems."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to Scala",
+      "topics": [
+        "Overview of Scala and JVM Compatibility",
+        "Setting Up Scala Development Environment",
+        "Basic Syntax and Language Structure"
+      ]
+    },
+    {
+      "title": "Module 2: Object-Oriented Programming in Scala",
+      "topics": [
+        "Classes and Objects",
+        "Traits and Inheritance",
+        "Encapsulation and Abstraction"
+      ]
+    },
+    {
+      "title": "Module 3: Functional Programming in Scala",
+      "topics": [
+        "Functions and Higher-Order Functions",
+        "Immutability and Collections",
+        "Pattern Matching"
+      ]
+    },
+    {
+      "title": "Module 4: Scala for Data Science and Big Data",
+      "topics": [
+        "Introduction to Apache Spark with Scala",
+        "Working with Data in Scala",
+        "Best Practices for Data Processing"
+      ]
+    },
+    {
+      "title": "Module 5: Advanced Scala Features",
+      "topics": [
+        "Advanced Type System Concepts",
+        "Concurrency and Performance",
+        "Code Optimization Techniques"
+      ]
+    }
+  ],
+
+  "prerequisites": "Experience with Java (preferred), Python, or another object-oriented programming language is recommended. No prior knowledge of Scala or data science concepts is required."
+}
+  },
+  "softwareengineeringfundamentals": {
+    "id": 15,
+    "name": "Software Engineering Fundamentals",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Software Engineering Fundamentals Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/softwareengineering.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Build a strong foundation for a career in software engineering by exploring core principles, development processes, architecture, tools, and programming fundamentals used across the industry.",
+
+  "intro": "This beginner-friendly course introduces you to the dynamic and in-demand field of software engineering. You will explore the Software Development Lifecycle (SDLC), development methodologies such as Agile, programming foundations, architecture and design principles, and modern development tools and stacks. Through expert insights and hands-on labs, you will gain practical exposure to the tools, technologies, terminology, and workflows used by professional software engineers.",
+
+  "youWillLearn": [
+    "How the Software Development Lifecycle (SDLC) supports structured software delivery",
+    "Core software development methodologies including Agile",
+    "Fundamental programming concepts including loops and conditionals",
+    "Differences between compiled and interpreted languages",
+    "Software architecture, design principles, and deployment models",
+    "Development tools, IDEs, and software stacks used in modern environments",
+    "Technical and soft skills required for software engineering careers",
+    "Career pathways and job opportunities in software engineering"
+  ],
+
+  "overview": [
+    "Nearly every industry relies on proprietary software systems to drive innovation and business growth, making software engineering one of the most sought-after professions globally.",
+    "This course is designed for beginners, career switchers, and professionals who want to understand software engineering principles and industry practices.",
+    "Through real-world insights from experienced engineers and practical labs such as building a 'Hello World' program and exploring development environments, you will gain both conceptual understanding and foundational hands-on skills."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: What is Software Engineering?",
+      "topics": [
+        "Introduction to the SDLC",
+        "Phases of the SDLC",
+        "Building Quality Software",
+        "Requirements and Documentation",
+        "Software Development Methodologies",
+        "Software Testing and Versioning",
+        "Roles in Software Engineering Projects",
+        "Software Building Process and Associated Roles"
+      ]
+    },
+    {
+      "title": "Module 2: Introduction to Software Development",
+      "topics": [
+        "Overview of Web and Cloud Development",
+        "Front-End and Back-End Development",
+        "Teamwork and Pair Programming",
+        "Application Development Tools and IDEs",
+        "Software Development Stacks",
+        "Hands-on Lab: Getting Started with an IDE"
+      ]
+    },
+    {
+      "title": "Module 3: Introduction to Programming",
+      "topics": [
+        "Compiled vs Interpreted Languages",
+        "Query and Assembly Languages",
+        "Programming Logic and Code Organization",
+        "Branching and Looping Concepts",
+        "Hands-on Lab: Programming Fundamentals with Python"
+      ]
+    },
+    {
+      "title": "Module 4: Software Architecture, Design, and Patterns",
+      "topics": [
+        "Introduction to Software Architecture",
+        "Software Design and Modeling",
+        "Object-Oriented Analysis and Design",
+        "Architectural Patterns",
+        "Application Deployment Environments",
+        "Deployment Topologies"
+      ]
+    },
+    {
+      "title": "Module 5: Job Opportunities and Skillsets",
+      "topics": [
+        "Role of a Software Engineer",
+        "Skills Required for Software Engineering",
+        "Career Paths and Job Titles",
+        "Industry Outlook",
+        "Code of Ethics",
+        "Matching Roles with Responsibilities Activity"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic computer literacy is required. No prior programming or software development experience is necessary."
+}
+  },
+  "promptengineeringessentials": {
+    "id": 16,
+    "name": "Prompt Engineering Essentials",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "IBM Prompt Engineering Essentials Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/promptengineering.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Master modern prompt engineering techniques to improve the effectiveness, reliability, and precision of generative AI systems such as ChatGPT and large language models (LLMs).",
+
+  "intro": "This course introduces the principles and best practices of prompt engineering — the process of designing and refining prompts to guide generative AI models toward producing accurate and meaningful outputs. Designed for professionals, developers, executives, students, and AI enthusiasts, this course demystifies prompt engineering and provides practical techniques to unlock the full potential of large language models (LLMs). Through real-world examples and hands-on labs, you will learn how to craft structured prompts that enhance performance, relevance, and clarity in AI-generated responses.",
+
+  "youWillLearn": [
+    "Fundamentals of prompt engineering and its importance in generative AI",
+    "Zero-shot and few-shot prompting techniques",
+    "Chain-of-Thought and Tree-of-Thought reasoning approaches",
+    "Interview Pattern prompting strategy",
+    "Best practices for writing clear and effective prompts",
+    "Using prompt engineering tools such as IBM watsonx Prompt Lab, Spellbook, and Dust",
+    "Hands-on optimization of prompts in AI lab environments"
+  ],
+
+  "overview": [
+    "Prompt engineering is a critical skill for effectively interacting with generative AI models and controlling their outputs.",
+    "This course explores structured prompting strategies that improve reliability, reduce hallucinations, and enhance response quality.",
+    "You will experiment with various prompting techniques and tools while learning directly from practitioners who apply these methods in real-world AI applications."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to Prompt Engineering",
+      "topics": [
+        "What is Prompt Engineering?",
+        "Understanding Large Language Models (LLMs)",
+        "Importance of Effective Prompt Design"
+      ]
+    },
+    {
+      "title": "Module 2: Core Prompting Techniques",
+      "topics": [
+        "Zero-Shot Prompting",
+        "Few-Shot Prompting",
+        "Improving Reliability and Output Quality"
+      ]
+    },
+    {
+      "title": "Module 3: Advanced Prompt Engineering Patterns",
+      "topics": [
+        "Interview Pattern",
+        "Chain-of-Thought Prompting",
+        "Tree-of-Thought Reasoning",
+        "Generating Precise and Contextual Responses"
+      ]
+    },
+    {
+      "title": "Module 4: Prompt Engineering Tools",
+      "topics": [
+        "Introduction to IBM watsonx Prompt Lab",
+        "Using Spellbook",
+        "Using Dust",
+        "Tool-Based Prompt Optimization"
+      ]
+    },
+    {
+      "title": "Module 5: Hands-On Labs and Practical Applications",
+      "topics": [
+        "Creating Effective Prompts in AI Classroom",
+        "Optimizing Prompt Performance",
+        "Practitioner Insights and Real-World Applications"
+      ]
+    }
+  ],
+
+  "prerequisites": "No prior experience in AI or programming is required. This course is suitable for beginners as well as professionals looking to enhance their ability to effectively interact with generative AI tools."
+}
+  },
+  "tallyessentialslevel1": {
+    "id": 17,
+    "name": "Tally Essential Level 1",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "Tally Essential Level 1 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/tallylevel1.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Build a strong foundation in computerized accounting with TallyPrime. Learn essential accounting concepts, GST compliance, voucher entry, inventory management, and business reporting using industry-standard Tally software.",
+
+  "intro": "Tally Essentials Level 1 introduces learners to the fundamentals of accounting and business management using TallyPrime. This beginner-friendly course covers core accounting principles, company creation, ledger management, GST transactions, inventory handling, and report generation. Designed for students, entrepreneurs, and accounting professionals, this course equips you with practical, job-ready skills required to manage business accounts efficiently.",
+
+  "youWillLearn": [
+    "Fundamentals of accounting principles and terminology",
+    "Creating and managing companies in TallyPrime",
+    "Recording accounting vouchers and transactions",
+    "GST setup and compliance in Tally",
+    "Inventory management and stock handling",
+    "Generating financial statements and business reports"
+  ],
+
+  "overview": [
+    "TallyPrime is one of the most widely used accounting software solutions for small and medium-sized businesses.",
+    "This course provides hands-on exposure to recording transactions, managing ledgers, and maintaining statutory compliance such as GST.",
+    "Learners will gain practical experience in managing real-world business scenarios including sales, purchases, payments, receipts, and financial reporting."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to Accounting and TallyPrime",
+      "topics": [
+        "Basics of Accounting Concepts",
+        "Introduction to TallyPrime Interface",
+        "Creating and Managing Companies",
+        "Company Features and Configuration"
+      ]
+    },
+    {
+      "title": "Module 2: Recording Transactions",
+      "topics": [
+        "Creation of Ledgers and Groups",
+        "Accounting Vouchers (Payment, Receipt, Contra, Journal)",
+        "Sales and Purchase Transactions",
+        "Debit and Credit Notes"
+      ]
+    },
+    {
+      "title": "Module 3: GST and Taxation",
+      "topics": [
+        "GST Fundamentals",
+        "GST Setup in TallyPrime",
+        "Recording GST Transactions",
+        "Generating GST Reports"
+      ]
+    },
+    {
+      "title": "Module 4: Inventory Management",
+      "topics": [
+        "Stock Groups and Stock Items",
+        "Units of Measurement",
+        "Inventory Vouchers",
+        "Tracking Stock Movement"
+      ]
+    },
+    {
+      "title": "Module 5: Reports and Business Insights",
+      "topics": [
+        "Trial Balance",
+        "Profit and Loss Statement",
+        "Balance Sheet",
+        "Cash Flow and Financial Reports"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic computer literacy is required. No prior accounting or Tally experience is necessary."
+}
+  },
+  "tallyessentialslevel2": {
+    "id": 18,
+    "name": "Tally Essential Level 2",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "Tally Essential Level 2 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/tallylevel2.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Advance your accounting expertise with TallyPrime by mastering GST compliance, advanced inventory management, banking operations, payroll processing, and business reporting for real-world business scenarios.",
+
+  "intro": "Tally Essentials Level 2 builds upon foundational accounting knowledge and focuses on advanced features of TallyPrime used in professional accounting environments. This course equips learners with practical skills in GST return filing, advanced inventory control, payroll management, banking reconciliation, cost centers, and financial reporting. Designed for aspiring accountants, finance professionals, and business owners, this course prepares you to confidently handle real-world accounting operations.",
+
+  "youWillLearn": [
+    "Advanced GST configuration and return preparation",
+    "Banking transactions and bank reconciliation process",
+    "Payroll setup and employee management",
+    "Cost centers and job costing techniques",
+    "Advanced inventory features and stock valuation methods",
+    "Generating MIS and analytical financial reports"
+  ],
+
+  "overview": [
+    "Tally Essentials Level 2 focuses on advanced accounting functionalities required in professional business environments.",
+    "You will gain hands-on experience in managing taxation, payroll, cost accounting, and business reporting using TallyPrime.",
+    "This course prepares learners to handle practical accounting scenarios including compliance management, salary processing, stock control, and financial analysis."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Advanced GST and Taxation",
+      "topics": [
+        "Advanced GST Configuration",
+        "GST Return Reports",
+        "Input Tax Credit (ITC) Management",
+        "GST Reconciliation"
+      ]
+    },
+    {
+      "title": "Module 2: Banking and Reconciliation",
+      "topics": [
+        "Banking Features in TallyPrime",
+        "Cheque Management",
+        "Bank Reconciliation Statement (BRS)",
+        "Digital Payment Entries"
+      ]
+    },
+    {
+      "title": "Module 3: Payroll Management",
+      "topics": [
+        "Employee Creation and Grouping",
+        "Payroll Setup and Configuration",
+        "Salary Structure and Pay Heads",
+        "Generating Payslips and Payroll Reports"
+      ]
+    },
+    {
+      "title": "Module 4: Cost Centres and Job Costing",
+      "topics": [
+        "Creating Cost Centres",
+        "Cost Categories",
+        "Allocating Expenses to Cost Centres",
+        "Job Costing Reports"
+      ]
+    },
+    {
+      "title": "Module 5: Advanced Inventory and Reporting",
+      "topics": [
+        "Stock Valuation Methods",
+        "Godown Management",
+        "Batch and Expiry Management",
+        "MIS Reports and Financial Analysis"
+      ]
+    }
+  ],
+
+  "prerequisites": "Completion of Tally Essentials Level 1 or equivalent foundational knowledge of accounting and TallyPrime is recommended."
+}
+  },
+  "tallyessentialslevel3": {
+    "id": 19,
+    "name": "Tally Essential Level 3",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "Tally Essential Level 3 Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/tallylevel3.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Master advanced accounting, statutory compliance, auditing, and business optimization using TallyPrime. Gain professional-level expertise to manage complex financial operations and enterprise accounting scenarios.",
+
+  "intro": "Tally Essentials Level 3 is designed for learners who want to achieve advanced proficiency in TallyPrime and handle complex accounting, taxation, compliance, and auditing tasks. This course focuses on statutory compliance including TDS and GST returns, advanced financial reporting, data security, audit features, and multi-company management. It prepares learners for professional accounting roles and real-world business environments.",
+
+  "youWillLearn": [
+    "Advanced GST return management and reconciliation",
+    "TDS setup, configuration, and statutory compliance",
+    "Audit features and compliance reporting in TallyPrime",
+    "Advanced financial reporting and MIS analysis",
+    "Data security, user roles, and access controls",
+    "Managing multiple companies and data migration"
+  ],
+
+  "overview": [
+    "Tally Essentials Level 3 equips learners with advanced accounting and compliance capabilities required in professional accounting environments.",
+    "The course covers statutory compliance including TDS, GST returns, audit tools, and regulatory reporting.",
+    "Learners gain hands-on exposure to enterprise-level accounting tasks such as financial analysis, internal controls, and secure data management."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Advanced GST Compliance",
+      "topics": [
+        "GST Return Filing (GSTR-1, GSTR-3B)",
+        "GST Reconciliation and ITC Matching",
+        "E-Invoicing and E-Way Bill Concepts",
+        "Handling GST Adjustments and Amendments"
+      ]
+    },
+    {
+      "title": "Module 2: TDS and Statutory Compliance",
+      "topics": [
+        "TDS Configuration in TallyPrime",
+        "TDS Deduction and Payment Entries",
+        "Generating TDS Reports",
+        "Statutory Compliance Overview"
+      ]
+    },
+    {
+      "title": "Module 3: Audit and Internal Controls",
+      "topics": [
+        "Audit Features in TallyPrime",
+        "Voucher Verification and Exception Reports",
+        "Compliance Monitoring",
+        "Internal Control Mechanisms"
+      ]
+    },
+    {
+      "title": "Module 4: Advanced Financial Management",
+      "topics": [
+        "Advanced MIS Reports",
+        "Cash Flow and Fund Flow Analysis",
+        "Ratio Analysis",
+        "Budgeting and Scenario Management"
+      ]
+    },
+    {
+      "title": "Module 5: Security, Data Management, and Multi-Company Handling",
+      "topics": [
+        "User Roles and Security Controls",
+        "Data Backup and Restoration",
+        "Company Data Migration",
+        "Managing Multiple Companies"
+      ]
+    }
+  ],
+
+  "prerequisites": "Completion of Tally Essentials Level 2 or equivalent experience in advanced accounting and TallyPrime operations is recommended."
+}
+  },
+  "tallyessentialscomprehensive": {
+    "id": 20,
+    "name": "Tally Essential Comprehensive",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "Tally Essential Comprehensive Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/tallycomprehensive.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Become a job-ready accounting professional by mastering TallyPrime from fundamentals to advanced statutory compliance, payroll, taxation, audit, and financial reporting in real-world business environments.",
+
+  "intro": "Tally Essentials Comprehensive is a complete accounting and business management program designed to take learners from foundational accounting principles to advanced professional-level expertise in TallyPrime. This course covers company setup, voucher entry, GST compliance, payroll processing, banking reconciliation, cost accounting, TDS, audit features, and enterprise-level financial reporting. Ideal for students, commerce graduates, entrepreneurs, and aspiring accountants, this program equips you with the practical skills required to confidently manage business accounts and statutory compliance in real-world scenarios.",
+
+  "youWillLearn": [
+    "Fundamentals of accounting and company creation in TallyPrime",
+    "Recording business transactions and managing ledgers",
+    "GST setup, compliance, and return filing (GSTR-1, GSTR-3B)",
+    "Payroll configuration and salary processing",
+    "Bank reconciliation and digital payment management",
+    "Cost centres, job costing, and inventory control",
+    "TDS configuration and statutory compliance management",
+    "Advanced financial reporting, MIS, and audit features",
+    "Data security, backup, and multi-company management"
+  ],
+
+  "overview": [
+    "This comprehensive program provides complete coverage of TallyPrime functionalities used in professional accounting environments.",
+    "Learners gain hands-on experience in managing real-world accounting operations including taxation, payroll, statutory compliance, and financial analysis.",
+    "By the end of the course, you will be equipped to handle full-cycle accounting processes for businesses, making you job-ready for accounting and finance roles."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Accounting Fundamentals and Company Setup",
+      "topics": [
+        "Basics of Accounting Principles",
+        "Creating and Configuring Companies",
+        "Ledgers, Groups, and Voucher Types",
+        "Recording Payment, Receipt, Contra, and Journal Entries"
+      ]
+    },
+    {
+      "title": "Module 2: GST and Taxation Management",
+      "topics": [
+        "GST Configuration in TallyPrime",
+        "Recording GST Transactions",
+        "GST Return Reports (GSTR-1, GSTR-3B)",
+        "E-Invoicing and E-Way Bill Overview"
+      ]
+    },
+    {
+      "title": "Module 3: Inventory and Cost Management",
+      "topics": [
+        "Stock Groups and Items",
+        "Godown and Batch Management",
+        "Cost Centres and Cost Categories",
+        "Job Costing and Stock Valuation Methods"
+      ]
+    },
+    {
+      "title": "Module 4: Banking and Payroll Management",
+      "topics": [
+        "Bank Reconciliation Statement (BRS)",
+        "Cheque Printing and Digital Transactions",
+        "Payroll Setup and Employee Configuration",
+        "Generating Payslips and Payroll Reports"
+      ]
+    },
+    {
+      "title": "Module 5: TDS, Audit, and Compliance",
+      "topics": [
+        "TDS Setup and Deduction Entries",
+        "Generating TDS Reports",
+        "Audit and Verification Tools",
+        "Statutory Compliance Reporting"
+      ]
+    },
+    {
+      "title": "Module 6: Financial Reporting and Business Insights",
+      "topics": [
+        "Profit & Loss Statement",
+        "Balance Sheet",
+        "Cash Flow and Fund Flow Statements",
+        "Advanced MIS and Ratio Analysis"
+      ]
+    },
+    {
+      "title": "Module 7: Data Security and Multi-Company Management",
+      "topics": [
+        "User Roles and Access Controls",
+        "Data Backup and Restoration",
+        "Company Data Migration",
+        "Managing Multiple Companies"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic computer literacy is required. No prior accounting or Tally experience is necessary, although familiarity with basic accounting concepts will be beneficial."
+}
+  },
+  "gstusingtallyprime": {
+    "id": 21,
+    "name": "GST using TallyPrime",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "GST using TallyPrime Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/gstusingtallyprime.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Master GST compliance using TallyPrime by learning configuration, transaction recording, return filing, reconciliation, and statutory reporting for real-world business scenarios.",
+
+  "intro": "GST Using TallyPrime is a practical, hands-on course designed to help learners understand and implement Goods and Services Tax (GST) compliance using TallyPrime. This course covers GST fundamentals, company configuration, recording GST transactions, input tax credit (ITC) management, and return filing processes including GSTR-1 and GSTR-3B. Ideal for accounting professionals, business owners, and students, this course prepares you to confidently manage GST operations in real-world environments.",
+
+  "youWillLearn": [
+    "Fundamentals of GST structure and taxation rules",
+    "Configuring GST in TallyPrime",
+    "Recording sales and purchase transactions with GST",
+    "Managing Input Tax Credit (ITC)",
+    "Generating GST reports and returns (GSTR-1, GSTR-3B)",
+    "GST reconciliation and compliance management"
+  ],
+
+  "overview": [
+    "GST compliance is a critical requirement for businesses operating in India. This course focuses on practical GST implementation using TallyPrime.",
+    "Learners will gain hands-on experience in managing taxable transactions, generating statutory reports, and preparing GST returns.",
+    "The course emphasizes real-world scenarios including multi-rate taxation, reverse charge mechanism, and input tax credit reconciliation."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Introduction to GST",
+      "topics": [
+        "Overview of GST Structure (CGST, SGST, IGST)",
+        "GST Registration and Compliance Basics",
+        "GST Terminology and Concepts"
+      ]
+    },
+    {
+      "title": "Module 2: GST Configuration in TallyPrime",
+      "topics": [
+        "Enabling GST Features",
+        "Setting GST Details for Company",
+        "Configuring GST Ledgers and Tax Rates"
+      ]
+    },
+    {
+      "title": "Module 3: Recording GST Transactions",
+      "topics": [
+        "Sales and Purchase Entries with GST",
+        "Debit and Credit Notes",
+        "Reverse Charge Mechanism (RCM)",
+        "Handling Multiple GST Rates"
+      ]
+    },
+    {
+      "title": "Module 4: GST Reports and Return Filing",
+      "topics": [
+        "Generating GSTR-1 Report",
+        "Generating GSTR-3B Summary",
+        "Input Tax Credit (ITC) Reconciliation",
+        "Exporting GST Data for Filing"
+      ]
+    },
+    {
+      "title": "Module 5: Advanced GST Features",
+      "topics": [
+        "E-Invoicing Overview",
+        "E-Way Bill Generation",
+        "GST Audit and Compliance Checks",
+        "Error Correction and Adjustments"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic knowledge of accounting and familiarity with TallyPrime is recommended. No prior GST filing experience is required."
+}
+  },
+  "tallyprofessional": {
+    "id": 22,
+    "name": "Tally Professional Certification",
+    "banner": "https://etrain.blr1.cdn.digitaloceanspaces.com/dstibm/images/banners/fullstackjavaspecialistbanner.svg",
+    "mainName": "Tally Professional Certification",
+    "mainImg": "https://etrain.blr1.cdn.digitaloceanspaces.com/svuicc/products/tallyprofessional.svg",
+    "price": "2,100",
+    "syllabus": {
+  "atAGlance": "Become a certified Tally Professional by mastering advanced accounting, GST, TDS, payroll, compliance, auditing, and financial reporting using TallyPrime for real-world business environments.",
+
+  "intro": "Tally Professional is an advanced, career-focused program designed to prepare learners for professional accounting and taxation roles. This course covers complete business accounting workflows in TallyPrime, including GST return filing, TDS compliance, payroll processing, banking reconciliation, cost accounting, audit tools, and financial analysis. Ideal for commerce graduates, aspiring accountants, finance professionals, and entrepreneurs, this program equips you with industry-ready skills required to manage enterprise-level accounting operations.",
+
+  "youWillLearn": [
+    "Advanced accounting and ledger management in TallyPrime",
+    "GST configuration, return filing, and reconciliation",
+    "TDS setup, deduction entries, and statutory compliance",
+    "Payroll management and employee salary processing",
+    "Bank reconciliation and digital transaction management",
+    "Cost centres, job costing, and inventory optimization",
+    "Audit features and compliance monitoring tools",
+    "Advanced financial reporting, MIS, and ratio analysis",
+    "Data security, backup, and multi-company management"
+  ],
+
+  "overview": [
+    "Tally Professional prepares learners to handle complete business accounting cycles in real-world scenarios.",
+    "The course emphasizes statutory compliance, taxation management, payroll operations, and enterprise reporting.",
+    "Through practical exercises and business case simulations, learners develop confidence in managing complex accounting and financial processes."
+  ],
+
+  "modules": [
+    {
+      "title": "Module 1: Advanced Accounting and Company Management",
+      "topics": [
+        "Company Creation and Configuration",
+        "Advanced Ledger and Group Management",
+        "Voucher Types and Complex Transactions",
+        "Multi-Currency Transactions"
+      ]
+    },
+    {
+      "title": "Module 2: GST Compliance and Return Filing",
+      "topics": [
+        "GST Setup and Configuration",
+        "Recording GST Transactions",
+        "GSTR-1 and GSTR-3B Reports",
+        "Input Tax Credit (ITC) Reconciliation",
+        "E-Invoicing and E-Way Bill Overview"
+      ]
+    },
+    {
+      "title": "Module 3: TDS and Statutory Compliance",
+      "topics": [
+        "TDS Configuration and Setup",
+        "TDS Deduction and Payment Entries",
+        "Generating TDS Reports",
+        "Compliance Monitoring and Adjustments"
+      ]
+    },
+    {
+      "title": "Module 4: Payroll and Cost Management",
+      "topics": [
+        "Employee Creation and Salary Structure",
+        "Payroll Processing and Payslip Generation",
+        "Cost Centres and Job Costing",
+        "Budgeting and Scenario Analysis"
+      ]
+    },
+    {
+      "title": "Module 5: Banking and Reconciliation",
+      "topics": [
+        "Banking Features in TallyPrime",
+        "Bank Reconciliation Statement (BRS)",
+        "Cheque Printing and Digital Transactions"
+      ]
+    },
+    {
+      "title": "Module 6: Audit, MIS, and Financial Analysis",
+      "topics": [
+        "Audit and Verification Tools",
+        "Exception Reports and Internal Controls",
+        "Profit & Loss Statement and Balance Sheet",
+        "Cash Flow and Fund Flow Reports",
+        "Ratio and MIS Analysis"
+      ]
+    },
+    {
+      "title": "Module 7: Data Security and Enterprise Management",
+      "topics": [
+        "User Roles and Access Controls",
+        "Data Backup and Restoration",
+        "Company Data Migration",
+        "Managing Multiple Companies"
+      ]
+    }
+  ],
+
+  "prerequisites": "Basic accounting knowledge and familiarity with TallyPrime is recommended. Completion of Tally Essentials Level 1 and Level 2 is beneficial but not mandatory."
+}
+  }
+}
