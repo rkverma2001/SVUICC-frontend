@@ -1,93 +1,155 @@
-import Footer from '@/components/footer/Footer';
-import React from 'react';
+import React from "react";
+import Footer from "../components/footer/Footer";
 
 const TermsAndConditions: React.FC = () => {
   return (
-    <div className="min-h-screen text-slate-800 mt-22">
-      <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border mb-10 p-8">
-        {/* Header */}
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold">Terms & Conditions</h1>
-            <div className="text-sm text-slate-600 mt-2">Last Updated: <span className="font-medium">August 2024</span></div>
-          </div>
-          <button onClick={() => window.print()} className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm">Print</button>
-        </div>
+    <div className="flex flex-col min-h-screen bg-white">
 
-        {/* Body */}
-        <div className="mt-6 prose prose-slate max-w-none">
-          <p>
-            Welcome to <strong>www.etrainindia.com</strong>! Please take a few minutes to review these Terms and Conditions. These Terms and Conditions apply to your access and use of the Web Site. Your use of our Web Site constitutes your agreement to follow these Terms and Conditions and to be bound by them.
+      <div className="flex grow items-start mt-24 justify-center px-4 py-10">
+        <div className="max-w-4xl bg-gray-50 p-8 rounded-xl shadow-sm border border-gray-200">
+          
+          <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
+            Terms and Conditions
+          </h1>
+
+          <p className="text-gray-600 text-sm text-center mb-8">
+            Effective Date: 01/02/2026
           </p>
 
-          <hr className="my-6" />
+          {/* Introduction */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">Introduction</h2>
+            <p className="text-gray-700 leading-relaxed">
+              These Terms and Conditions govern your enrollment and participation 
+              in certification programs offered by Sri Venkateswara University – 
+              Industry Certification Centre (Start-Up Innovation & Incubation Centre, 
+              RUSA Phase II), operated in collaboration with Etrain Education Pvt Ltd.
+              By registering for any certification program, you agree to comply with 
+              these Terms.
+            </p>
+          </section>
 
-          {/* Table of Contents */}
-          <nav className="mb-6">
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
-              <li><a className="text-green-600" href="#changes">• Terms & Conditions May Change</a></li>
-              <li><a className="text-green-600" href="#handling">• Handling Charges</a></li>
-              <li><a className="text-green-600" href="#use">• Use of Our Web Site</a></li>
-              <li><a className="text-green-600" href="#comments">• User Comments</a></li>
-              <li><a className="text-green-600" href="#creative">• Creative Corner</a></li>
-              <li><a className="text-green-600" href="#hyperlinks">• Hyperlinks</a></li>
-              <li><a className="text-green-600" href="#pricing">• Product Pricing Information</a></li>
-              <li><a className="text-green-600" href="#disclaimer">• Disclaimer</a></li>
+          {/* Eligibility */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">1. Eligibility</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>You must provide accurate personal and academic information during registration.</li>
+              <li>You must meet eligibility criteria specified for each certification program.</li>
+              <li>Providing false or misleading information may result in cancellation of enrollment.</li>
             </ul>
-          </nav>
-
-          <section id="changes">
-            <h2 className="text-2xl font-semibold">These Terms and Conditions May Change</h2>
-            <p>EtrainIndia reserves the right to update or modify these Terms and Conditions at any time without prior notice. We encourage you to review these Terms and Conditions whenever you purchase products from us or use our Web Site.</p>
           </section>
 
-          <section id="handling" className="mt-6">
-            <h2 className="text-2xl font-semibold">Handling Charges</h2>
-            <p>Our handling charges are intended to compensate for the cost of processing your order, handling, and packing the products you purchase. Please review our detailed Shipping Policy for more information.</p>
+          {/* Certification Enrollment */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">2. Certification Enrollment</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>Enrollment is subject to verification and availability of exam slots.</li>
+              <li>Certification programs are conducted in collaboration with authorized global bodies (Microsoft, Adobe, Cisco, IBM, Apple, PMI, Meta, Autodesk, Tally, etc.).</li>
+              <li>The university reserves the right to modify schedules, batches, or delivery format when necessary.</li>
+            </ul>
           </section>
 
-          <section id="use" className="mt-6">
-            <h2 className="text-2xl font-semibold">Use of Our Web Site</h2>
-            <p>By accessing and using this site, you agree to do so only for lawful purposes and in accordance with these Terms and Conditions.</p>
+          {/* Payments */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">3. Payments & Fees</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>All fees must be paid in full before certification processing.</li>
+              <li>Fees once paid are generally non-refundable unless explicitly stated.</li>
+              <li>In case a certification exam is cancelled by the organizing body, rescheduling or refund policies will apply as per official guidelines.</li>
+            </ul>
           </section>
 
-          <section id="comments" className="mt-6">
-            <h2 className="text-2xl font-semibold">User Comments</h2>
-            <p>
-              We welcome your comments about our Web Site and Products. However, any comments, feedback, notes, messages, ideas, suggestions, or other communications (collectively "Comments") sent to our Web Site shall remain the exclusive property of EtrainIndia.
+          {/* Authorized Testing */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">4. Authorized Testing Centre</h2>
+            <p className="text-gray-700 leading-relaxed">
+              Sri Venkateswara University operates as a Certiport Authorized 
+              Testing Centre. All examinations are conducted in compliance with 
+              the rules and regulations of the respective certification authority.
+              Candidates must follow examination protocols strictly.
             </p>
           </section>
 
-          <section id="creative" className="mt-6">
-            <h2 className="text-2xl font-semibold">Creative Corner</h2>
-            <p>Images intended for use on the Creative Corner remain the exclusive property of the artists who submit them. However, EtrainIndia is not liable for any third-party misuse of these images.</p>
+          {/* User Responsibilities */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">5. User Responsibilities</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>Maintain confidentiality of login credentials.</li>
+              <li>Adhere to academic integrity and examination policies.</li>
+              <li>Use certification materials only for personal academic purposes.</li>
+            </ul>
           </section>
 
-          <section id="hyperlinks" className="mt-6">
-            <h2 className="text-2xl font-semibold">Hyperlinks to Other Web Sites</h2>
-            <p>
-              Our Web Site may contain links to external services and resources. EtrainIndia does not control such websites and is not responsible for their content or availability. Concerns regarding these external services should be directed to the respective website.
+          {/* Intellectual Property */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">6. Intellectual Property</h2>
+            <p className="text-gray-700 leading-relaxed">
+              All certification content, training materials, and exam resources 
+              are the intellectual property of their respective global certification 
+              providers. Unauthorized reproduction, distribution, or misuse is strictly prohibited.
             </p>
           </section>
 
-          <section id="pricing" className="mt-6">
-            <h2 className="text-2xl font-semibold">Product Pricing Information</h2>
-            <p>The prices displayed on our Web Site may differ from those available in stores or catalogs. Prices may vary from store to store.</p>
-            <p>The price reflected online represents the everyday value price we offer to our customers.</p>
+          {/* Limitation of Liability */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">7. Limitation of Liability</h2>
+            <p className="text-gray-700 leading-relaxed">
+              The Industry Certification Centre shall not be liable for any indirect, 
+              incidental, or consequential damages arising from participation in 
+              certification programs or technical issues beyond reasonable control.
+            </p>
           </section>
 
-          <section id="disclaimer" className="mt-6">
-            <h2 className="text-2xl font-semibold">Disclaimer</h2>
-            <p>
-              At times, our Web Site or catalog may contain typographical errors, inaccuracies, or omissions related to product descriptions, pricing, and availability. EtrainIndia reserves the right to correct such errors and update information without prior notice.
+          {/* Changes */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">8. Changes to Terms</h2>
+            <p className="text-gray-700 leading-relaxed">
+              The Centre reserves the right to update or modify these Terms 
+              at any time. Continued participation in programs constitutes 
+              acceptance of the updated Terms.
             </p>
+          </section>
+
+          {/* Governing Law */}
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold mb-3">9. Governing Law</h2>
+            <p className="text-gray-700 leading-relaxed">
+              These Terms shall be governed by the laws of India. Any disputes 
+              shall fall under the jurisdiction of appropriate courts in Andhra Pradesh, India.
+            </p>
+          </section>
+
+          {/* Contact */}
+          <section className="border-t pt-6">
+            <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
+            <div className="flex flex-col sm:flex-row gap-6 text-gray-700">
+              <div>
+                <span className="font-medium">Email:</span>{" "}
+                <a
+                  href="mailto:info@svuicc.com"
+                  className="text-[#2d79c5] hover:underline"
+                >
+                  info@svuicc.com
+                </a>
+              </div>
+                ||
+              <div>
+                <a
+                  href="mailto:support@svuicc.com"
+                  className="text-[#2d79c5] hover:underline"
+                >
+                  support@svuicc.com
+                </a>
+              </div>
+            </div>
           </section>
 
         </div>
       </div>
-      <Footer/>
+
+      <Footer />
     </div>
   );
-}
+};
 
 export default TermsAndConditions;

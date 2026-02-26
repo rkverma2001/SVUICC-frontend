@@ -8,6 +8,10 @@ import { useAuth } from "./components/auth/AuthContext";
 import AuthCard from "./components/auth/AuthCard";
 import Dashboard from "./dashboard/Dashboard";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndContidions";
+import RefundPolicy from "./pages/RefundPolicy";
 
 const App = () => {
   const { isAuthOpen } = useAuth();
@@ -25,6 +29,10 @@ const App = () => {
           <Route path="/courses/:courseId" element={<MinorDegree />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about-us" element={<AboutUs/>} />
+          <Route path="/contactus" element={<ContactUs/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/terms-conditions" element={<TermsAndConditions/>} />
+          <Route path="/refund-policy" element={<RefundPolicy/>} />
           <Route path="*" element={<div>404 Not Found</div>} />
         </Routes>
         {isAuthOpen && (

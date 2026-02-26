@@ -1,8 +1,7 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import type { CourseSearchResult, TabItem } from "../components/types";
-
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8080/api/v1/course/search";
+import api from "../services/api";
 
 function useQuery() {
   return new URLSearchParams(useLocation().search);
@@ -16,34 +15,52 @@ export default function SearchPage() {
   const [activeTab, setActiveTab] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!q.trim()) {
-      setResults([]);
-      setActiveTab(null);
-      return;
-    }
-    let cancelled = false;
-    setLoading(true);
-    setError(null);
-    fetch(`${API_BASE}?q=${encodeURIComponent(q)}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch");
-        return res.json();
-      })
-      .then((data: CourseSearchResult[]) => {
-        if (cancelled) return;
-        setResults(data || []);
-        // determine default tab from first result
-        const first = data?.[0];
-        const firstTab = first ? Object.keys(first.tabData ?? {})[0] ?? null : null;
-        setActiveTab(firstTab);
-      })
-      .catch((err) => {
-        console.error(err);
+  if (!q.trim()) {
+    setResults([]);
+    setActiveTab(null);
+    return;
+  }
+
+  let cancelled = false;
+
+  const fetchResults = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const { data } = await api.get<CourseSearchResult[]>(
+        `/course/search`,
+        {
+          params: { q },
+        }
+      );
+
+      if (cancelled) return;
+
+      setResults(data || []);
+
+      // Determine default tab from first result
+      const first = data?.[0];
+      const firstTab =
+        first ? Object.keys(first.tabData ?? {})[0] ?? null : null;
+
+      setActiveTab(firstTab);
+    } catch (err) {
+      console.error(err);
+      if (!cancelled) {
         setError("Something went wrong while fetching results");
-      })
-      .finally(() => !cancelled && setLoading(false));
-    return () => { cancelled = true; };
-  }, [q]);
+      }
+    } finally {
+      if (!cancelled) setLoading(false);
+    }
+  };
+
+  fetchResults();
+
+  return () => {
+    cancelled = true;
+  };
+}, [q]);
 
   // collect all tab names across results for tabs UI
   const allTabs = useMemo(() => {

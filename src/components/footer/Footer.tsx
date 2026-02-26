@@ -30,31 +30,31 @@ const Footer = () => {
         {/* Privacy Policy and Terms & Conditions */}
         <div className="mt-3 text-center space-x-4">
           <button
-            className="text-gray-700 hover:backdrop cursor-pointer"
+            className="text-white hover:backdrop cursor-pointer"
             onClick={handleContactUs}
           >
             Contact Us
           </button>
           <button
-            className="text-gray-700 hover:backdrop cursor-pointer"
+            className="text-white hover:backdrop cursor-pointer"
             onClick={handlePrivacyPolicy}
           >
             Privacy Policy
           </button>
           <button
-            className="text-gray-700 hover:backdrop cursor-pointer"
+            className="text-white hover:backdrop cursor-pointer"
             onClick={handleTermsandConditions}
           >
             Terms & Conditions
           </button>
           <button
-            className="text-gray-700 hover:backdrop cursor-pointer"
+            className="text-white hover:backdrop cursor-pointer"
             onClick={handleRefund}
           >
             Refund Policy
           </button>
           <button
-            className="text-gray-700 hover:backdrop cursor-pointer"
+            className="text-white hover:backdrop cursor-pointer"
             onClick={handleAboutUs}
           >
             About Us
@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="my-6 border-t border-gray-800"></div>
 
         {/* Copyright Section */}
-        <div className="text-center text-gray-600 flex items-center justify-center">
+        <div className="text-center text-white flex items-center justify-center">
           <AiOutlineCopyrightCircle className="mr-2" size={16} />
           <span>Copyright 2026, All rights reserved</span>
         </div>

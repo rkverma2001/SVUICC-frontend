@@ -13,6 +13,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../auth/AuthContext";
 import DropdownWrapper from "./coursedropdown/DropdownWrapper";
 import SuggestionDropdown from "./search/SuggestionDropdown";
+import MobileCourseDropdown from "./coursedropdown/MobileCourseDropdown";
 
 const API_BASE = "http://localhost:8080/api/v1/course/search";
 
@@ -248,7 +249,7 @@ const Navbar: React.FC = () => {
 
             {isMobileCourseOpen && (
               <div className="mt-3 border rounded-md max-h-[400px] overflow-y-auto">
-                <DropdownWrapper />
+                <MobileCourseDropdown />
               </div>
             )}
           </div>
