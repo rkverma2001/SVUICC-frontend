@@ -12,6 +12,7 @@ import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndContidions";
 import RefundPolicy from "./pages/RefundPolicy";
+import Talent from "./pages/Talent/Talent";
 
 const App = () => {
   const { isAuthOpen } = useAuth();
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
           <Route path="/terms-conditions" element={<TermsAndConditions/>} />
           <Route path="/refund-policy" element={<RefundPolicy/>} />
+          <Route path="/talentassessments" element={<Talent/>} />
           <Route path="*" element={<div>404 Not Found</div>} />
         </Routes>
         {isAuthOpen && (

@@ -171,6 +171,13 @@ const Navbar: React.FC = () => {
             {isDropdownOpen && <DropdownWrapper />}
           </div>
 
+          <Link
+            to="/talentassessments"
+            className="hidden md:block text-sm font-medium hover:text-[#008641]"
+          >
+            Talent Assessments
+          </Link>
+
           {/* Profile */}
           {isAuthenticated ? (
             <div
@@ -263,6 +270,10 @@ const Navbar: React.FC = () => {
               className="w-full border rounded-md p-2"
             />
           </form>
+
+          <Link to="/talentassessments" className="block font-medium">
+            Talent Assessments
+          </Link>
 
           {/* Mobile Auth */}
           {isAuthenticated ? (
