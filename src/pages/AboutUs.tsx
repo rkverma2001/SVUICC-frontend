@@ -135,26 +135,35 @@ const AboutUs: React.FC = () => {
               Contact Us
             </h2>
 
-            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 text-gray-700 text-sm sm:text-base">
-              <div>
-                <span className="font-medium">Email:</span>{" "}
-                <a
-                  href="mailto:info@svuicc.com"
-                  className="text-[#2d79c5] hover:underline"
-                >
-                  info@svuicc.com
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:gap-6 text-gray-700 text-sm sm:text-base">
 
-              <div>
-                <a
-                  href="mailto:support@svuicc.com"
-                  className="text-[#2d79c5] hover:underline"
-                >
-                  support@svuicc.com
-                </a>
-              </div>
-            </div>
+  {/* Info Email */}
+  <div className="max-w-sm">
+    <p className="font-medium">
+      For any queries related to courses and certifications:
+    </p>
+    <a
+      href="mailto:info@svuicc.com"
+      className="text-[#2d79c5] hover:underline"
+    >
+      info@svuicc.com
+    </a>
+  </div>
+
+  {/* Support Email */}
+  <div className="max-w-sm">
+    <p className="font-medium">
+      For support after voucher redemption:
+    </p>
+    <a
+      href="mailto:support@svuicc.com"
+      className="text-[#2d79c5] hover:underline"
+    >
+      support@svuicc.com
+    </a>
+  </div>
+
+</div>
           </section>
 
         </div>

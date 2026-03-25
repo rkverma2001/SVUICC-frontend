@@ -26,21 +26,35 @@ const ContactUs: React.FC = () => {
                 <span className="font-medium">Email:</span>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-6 text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center">
-                <a
-                  href="mailto:info@svuicc.com"
-                  className="hover:underline"
-                >
-                  info@svuicc.com
-                </a>
-                  ||
-                <a
-                  href="mailto:support@svuicc.com"
-                  className="hover:underline"
-                >
-                  support@svuicc.com
-                </a>
-              </div>
+              <div className="flex flex-col gap-4 text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center">
+
+  {/* Info Email */}
+  <div>
+    <p className="text-gray-700 font-medium">
+      For any queries related to courses and certifications, students can reach out to
+    </p>
+    <a
+      href="mailto:info@svuicc.com"
+      className="hover:underline block"
+    >
+      info@svuicc.com
+    </a>
+  </div>
+
+  {/* Support Email */}
+  <div>
+    <p className="text-gray-700 font-medium">
+      For support after voucher redemption, students can contact
+    </p>
+    <a
+      href="mailto:support@svuicc.com"
+      className="hover:underline block"
+    >
+      support@svuicc.com
+    </a>
+  </div>
+
+</div>
 
               {/* Address */}
               <div className="flex items-center text-base sm:text-lg mb-2">
@@ -49,8 +63,7 @@ const ContactUs: React.FC = () => {
               </div>
 
               <p className="text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center max-w-sm">
-                12th, Hemkunt Chambers, 1211, 89, Nehru Pl Market Rd,
-                Nehru Place, New Delhi, Delhi 110019
+                Innovation incubation centre, Sv University, svu post tirupati 517502
               </p>
 
               {/* Message */}
@@ -66,7 +79,7 @@ const ContactUs: React.FC = () => {
               <div className="w-full h-64 sm:h-96 rounded-lg overflow-hidden shadow-md">
                 <iframe
                   title="Google Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1223070659467!2d77.24950587545995!3d28.62321968489244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c2d0661fc9%3A0x967fdc3d9a3f2cf0!2sHemkunt%20Chambers%2C%20Nehru%20Pl%20Market%20Rd%2C%20Nehru%20Place%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1714045080736!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3877.4300984227966!2d79.39679337508804!3d13.63158128674787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDM3JzUzLjciTiA3OcKwMjMnNTcuNyJF!5e0!3m2!1sen!2sin!4v1774417996105!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   allowFullScreen
