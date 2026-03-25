@@ -6,53 +6,49 @@ import Footer from "../components/footer/Footer";
 const ContactUs: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen mt-28">
-
       <div className="flex grow items-center justify-center px-4 sm:px-8">
         <div className="p-6 bg-gradient-to-r from-blue-50 to-blue-100 w-full max-w-6xl mx-auto border border-[#2d79c5] rounded-lg shadow-lg">
-          
           <h1 className="text-2xl sm:text-4xl font-bold mb-16 text-center text-[#2d79c5]">
             Contact Us
           </h1>
 
           {/* Side-by-side layout */}
           <div className="flex flex-col lg:flex-row gap-8">
-            
             {/* Contact Info */}
             <div className="flex-1 flex flex-col justify-center items-center">
-              
               {/* Email Section */}
               <div className="flex items-center text-base sm:text-lg mb-4">
                 <MdEmail className="text-xl sm:text-2xl mr-2 text-[#2d79c5]" />
                 <span className="font-medium">Email:</span>
               </div>
 
-              <div className="flex flex-col gap-4 text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center">
+              <div className="flex flex-col gap-4 text-gray-700 text-base sm:text-lg font-medium mb-6 text-center">
 
   {/* Info Email */}
-  <div>
-    <p className="text-gray-700 font-medium">
-      For any queries related to courses and certifications, students can reach out to
-    </p>
+  <p>
+    For any queries related to courses and certifications,
+    <br />
+    students can reach out to{" "}
     <a
       href="mailto:info@svuicc.com"
-      className="hover:underline block"
+      className="text-[#2d79c5] hover:underline font-semibold"
     >
       info@svuicc.com
     </a>
-  </div>
+  </p>
 
   {/* Support Email */}
-  <div>
-    <p className="text-gray-700 font-medium">
-      For support after voucher redemption, students can contact
-    </p>
+  <p>
+    For support after voucher redemption,
+    <br />
+    students can contact{" "}
     <a
       href="mailto:support@svuicc.com"
-      className="hover:underline block"
+      className="text-[#2d79c5] hover:underline font-semibold"
     >
       support@svuicc.com
     </a>
-  </div>
+  </p>
 
 </div>
 
@@ -63,14 +59,15 @@ const ContactUs: React.FC = () => {
               </div>
 
               <p className="text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center max-w-sm">
-                Innovation incubation centre, Sv University, svu post tirupati 517502
+                Innovation incubation centre, S V University, SVU post Tirupati
+                517502
               </p>
 
               {/* Message */}
               <p className="text-center text-gray-700 text-sm sm:text-base max-w-md">
-                We are here to assist you with any questions, concerns,
-                or support inquiries. Please feel free to reach out to us,
-                and we will get back to you as soon as possible.
+                We are here to assist you with any questions, concerns, or
+                support inquiries. Please feel free to reach out to us, and we
+                will get back to you as soon as possible.
               </p>
             </div>
 
@@ -88,12 +85,11 @@ const ContactUs: React.FC = () => {
                 />
               </div>
             </div>
-
           </div>
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };
