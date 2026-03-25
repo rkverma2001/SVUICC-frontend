@@ -18,7 +18,6 @@ interface DecodedToken {
 interface Order {
   _id: string;
   courseName: string;
-  paymentStatus: string;
 }
 
 interface OrdersResponse {
@@ -46,7 +45,6 @@ const Dashboard: React.FC = () => {
     try {
       const decoded = jwtDecode<DecodedToken>(token);
       setUser(decoded);
-
       fetchOrders(token);
     } catch (err) {
       console.error("Invalid token", err);
@@ -69,17 +67,14 @@ const Dashboard: React.FC = () => {
         }
       );
 
-      if (data?.success) {
-        const paidOrders = data.orders.filter(
-          (order) => order.paymentStatus === "SUCCESS"
-        );
-
-        setPurchasedCourses(paidOrders);
+      if (data?.success && Array.isArray(data.orders)) {
+        setPurchasedCourses(data.orders);
       } else {
         setPurchasedCourses([]);
       }
     } catch (error) {
       console.error("Failed to fetch orders", error);
+      setPurchasedCourses([]);
     } finally {
       setLoading(false);
     }
@@ -114,7 +109,7 @@ const Dashboard: React.FC = () => {
         My Dashboard
       </h1>
 
-      {/* Dashboard Cards */}
+      {/* Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 md:w-1/2 mx-auto gap-8 mb-32">
         
         {/* Profile Card */}
@@ -152,31 +147,37 @@ const Dashboard: React.FC = () => {
           {loading ? (
             <p>Loading courses...</p>
           ) : purchasedCourses.length > 0 ? (
-            <ul className="list-disc pl-5 space-y-4">
-              {purchasedCourses.map((course) => (
-                <li
-                  key={course._id}
-                  className="text-green-700 font-medium"
-                >
-                  {course.courseName}
+            <>
+              {/* ✅ Course Names (multi-line handled) */}
+              <ul className="list-disc pl-5 space-y-3">
+                {purchasedCourses.map((course) => (
+                  <li
+                    key={course._id}
+                    className="text-green-700 font-medium"
+                  >
+                    {course.courseName
+                      .split("\n")
+                      .map((line, index) => (
+                        <div key={index}>{line}</div>
+                      ))}
+                  </li>
+                ))}
+              </ul>
 
-                  {/* ✅ Message below each course */}
-                  <p className="text-sm text-gray-700 mt-1">
-                    You will receive an email on your registered email id
-                    regarding your redeemed voucher within the next 24 business
-                    hours. If you have any further questions, please feel free
-                    to contact us at{" "}
-                    <a
-                      href="mailto:support@svuicc.com"
-                      className="text-[#2d79c5] hover:underline font-medium"
-                    >
-                      support@svuicc.com
-                    </a>
-                    .
-                  </p>
-                </li>
-              ))}
-            </ul>
+              {/* ✅ Single Common Message */}
+              <p className="text-sm text-gray-700 mt-4">
+                You will receive an email on your registered email id regarding
+                your redeemed voucher within the next 24 business hours. If you
+                have any further questions, please feel free to contact us at{" "}
+                <a
+                  href="mailto:support@svuicc.com"
+                  className="text-[#2d79c5] hover:underline font-medium"
+                >
+                  support@svuicc.com
+                </a>
+                .
+              </p>
+            </>
           ) : (
             <p className="text-red-600 font-semibold">
               You have not purchased any course
