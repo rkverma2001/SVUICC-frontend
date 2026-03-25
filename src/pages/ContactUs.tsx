@@ -59,7 +59,7 @@ const ContactUs: React.FC = () => {
               </div>
 
               <p className="text-[#2d79c5] text-base sm:text-lg font-semibold mb-6 text-center max-w-sm">
-                Innovation incubation centre, S V University, SVU post Tirupati
+                Innovation Incubation Centre, S.V. University, SVU Post, Tirupati, Andhra Pradesh
                 517502
               </p>
 
