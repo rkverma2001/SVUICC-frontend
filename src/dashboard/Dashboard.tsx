@@ -36,7 +36,7 @@ const Dashboard: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    const token = localStorage.getItem("authToken"); // 🔥 use same key as login
+    const token = localStorage.getItem("authToken");
 
     if (!token) {
       setLoading(false);
@@ -44,11 +44,9 @@ const Dashboard: React.FC = () => {
     }
 
     try {
-      // 1️⃣ Decode JWT safely
       const decoded = jwtDecode<DecodedToken>(token);
       setUser(decoded);
 
-      // 2️⃣ Fetch Orders
       fetchOrders(token);
     } catch (err) {
       console.error("Invalid token", err);
@@ -154,13 +152,28 @@ const Dashboard: React.FC = () => {
           {loading ? (
             <p>Loading courses...</p>
           ) : purchasedCourses.length > 0 ? (
-            <ul className="list-disc pl-5 space-y-2">
+            <ul className="list-disc pl-5 space-y-4">
               {purchasedCourses.map((course) => (
                 <li
                   key={course._id}
                   className="text-green-700 font-medium"
                 >
                   {course.courseName}
+
+                  {/* ✅ Message below each course */}
+                  <p className="text-sm text-gray-700 mt-1">
+                    You will receive an email on your registered email id
+                    regarding your redeemed voucher within the next 24 business
+                    hours. If you have any further questions, please feel free
+                    to contact us at{" "}
+                    <a
+                      href="mailto:support@svuicc.com"
+                      className="text-[#2d79c5] hover:underline font-medium"
+                    >
+                      support@svuicc.com
+                    </a>
+                    .
+                  </p>
                 </li>
               ))}
             </ul>
